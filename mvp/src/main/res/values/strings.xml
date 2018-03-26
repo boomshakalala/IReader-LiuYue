@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVP</string>
+    <string name="text_net_error">似乎没有网络哦</string>
+    <string name="text_search_hint">找书，找人</string>
+</resources>

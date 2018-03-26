@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingBottom="40px">
+    <ImageView
+        android:id="@+id/bookIv"
+        android:layout_width="282px"
+        android:layout_height="366px"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_book"
+        android:layout_marginTop="36px"
+        />
+    <TextView
+        android:id="@+id/bookNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24px"
+        android:maxLines="1"
+        android:textSize="12sp"
+        android:textColor="@color/colorLightGray"
+        android:text="妖妃风华"/>
+    <TextView
+        android:id="@+id/bookPriceTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:maxLines="1"
+        android:textSize="9sp"
+        android:textColor="@color/colorLightGray"
+        android:text="5藤币/千字"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:maxLines="1"
+        android:textSize="12sp"
+        android:textColor="#f77486"
+        android:text="免费"/>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/common_toolbar"/>
+    <include
+        layout="@layout/item_space_divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="126px"
+        android:paddingRight="126px"
+        android:paddingTop="33px"
+        android:paddingBottom="33px"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/weekRankBtn"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:paddingTop="14px"
+                android:paddingBottom="14px"
+                android:paddingRight="21px"
+                android:paddingLeft="21px"
+                android:textSize="13sp"
+                android:textColor="@drawable/selector_book_type_text_color"
+                android:background="@drawable/selector_btn_rank"
+                android:text="周  榜"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/monthRankBtn"
+                android:layout_width="wrap_content"
+                android:paddingTop="14px"
+                android:paddingBottom="14px"
+                android:paddingRight="21px"
+                android:paddingLeft="21px"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@drawable/selector_book_type_text_color"
+                android:background="@drawable/selector_btn_rank"
+                android:text="月  榜"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/allRankBtn"
+                android:layout_width="wrap_content"
+                android:paddingTop="14px"
+                android:paddingBottom="14px"
+                android:paddingRight="21px"
+                android:paddingLeft="21px"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@drawable/selector_book_type_text_color"
+                android:background="@drawable/selector_btn_rank"
+                android:text="总  榜"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <include
+        layout="@layout/item_space_divider"/>
+    <com.chengx.mvp.widget.XRecyclerView
+        android:id="@+id/xRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

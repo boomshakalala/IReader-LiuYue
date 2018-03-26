@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/readRootView"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="78px"
+        android:paddingRight="78px"
+        android:paddingTop="42px">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/chapterNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#77d1da"
+                android:layout_alignParentLeft="true"
+                android:text="第一章 蒙面杀手"/>
+            <TextView
+                android:id="@+id/bookNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#77d1da"
+                android:layout_alignParentRight="true"
+                android:text="《美丽心情》"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="48px"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <com.chengx.mvp.widget.auto.AutoScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/bookContentTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#242424"
+                        android:textSize="18sp"
+                        android:lineSpacingExtra="14dp"
+                        android:text=""/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="60px"
+                        android:paddingBottom="84px">
+                        <TextView
+                            android:id="@+id/last"
+                            android:layout_width="198px"
+                            android:layout_height="60px"
+                            android:layout_marginLeft="84px"
+                            android:gravity="center"
+                            android:background="@drawable/shape_gray_round_rect"
+                            android:textSize="11sp"
+                            android:textColor="#242424"
+                            android:text="上一章"/>
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1px"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:id="@+id/chapterList"
+                            android:layout_width="198px"
+                            android:layout_height="60px"
+                            android:gravity="center"
+                            android:background="@drawable/shape_gray_round_rect"
+                            android:textSize="11sp"
+                            android:textColor="#242424"
+                            android:text="目录"/>
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1px"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:id="@+id/next"
+                            android:layout_width="198px"
+                            android:layout_height="60px"
+                            android:gravity="center"
+                            android:background="@drawable/shape_blue_conner"
+                            android:textSize="11sp"
+                            android:textColor="@color/white"
+                            android:layout_marginRight="84px"
+                            android:text="下一章"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </com.chengx.mvp.widget.auto.AutoScrollView>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/readPopView"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="174px"
+            android:background="#aaffffff"
+            android:orientation="horizontal"
+            android:paddingLeft="78px"
+            android:paddingRight="78px">
+
+            <TextView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/btn_read_back"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:text="返回"
+                android:textColor="#fa9293"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/zddyBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/selector_btn_read_sub"
+                android:drawablePadding="11dp"
+                android:gravity="center"
+                android:text="自动订阅"
+                android:textColor="#3fbfcc"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/homeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_read_home" />
+
+            <ImageView
+                android:id="@+id/collectBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="60px"
+                android:layout_toLeftOf="@id/homeBtn"
+                android:src="@drawable/btn_read_collect" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#AAFFFFFF"
+            android:paddingBottom="23px"
+            android:paddingLeft="225px"
+            android:paddingRight="225px"
+            android:paddingTop="32px">
+
+            <TextView
+                android:id="@+id/commentBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="7dp"
+                android:drawableTop="@drawable/btn_read_comment"
+                android:text="评论"
+                android:textColor="#808080"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/giftBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="7dp"
+                android:drawableTop="@drawable/btn_read_reward"
+                android:text="打赏"
+                android:textColor="#808080"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/settingBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:drawablePadding="7dp"
+                android:drawableTop="@drawable/btn_read_setting"
+                android:text="设置"
+                android:textColor="#808080"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+
+
+
+        <FrameLayout
+            android:visibility="visible"
+            android:id="@+id/upDownView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lastChapterBtn"
+                android:layout_width="177px"
+                android:layout_height="87px"
+                android:layout_gravity="center_vertical|left"
+                android:background="@drawable/shape_gray_right_conner_rect"
+                android:gravity="center"
+                android:text="上一章"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/nextChapterBtn"
+                android:layout_width="177px"
+                android:layout_height="87px"
+                android:layout_gravity="center_vertical|right"
+                android:background="@drawable/shape_white_left_conner_rect"
+                android:gravity="center"
+                android:text="下一章"
+                android:textColor="#f89494"
+                android:textSize="14sp" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+</FrameLayout>
