@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:paddingLeft="48px"
+        android:paddingRight="48px"
+        android:paddingTop="30px"
+        android:paddingBottom="30px">
+        <com.chengx.mvp.widget.CircleImageView
+            android:layout_width="66px"
+            android:layout_height="66px"
+
+            android:src="@mipmap/ic_launcher"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="17px"
+            android:layout_marginLeft="24px">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f96466"
+                android:textSize="11sp"
+                android:text="我就是不一样的烟火"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27px"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#373737"
+                    android:textSize="8sp"
+                    android:text="评论了" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8sp"
+                    android:textColor="#f74082"
+                    android:layout_marginLeft="36px"
+                    android:text="《缉拿千亿未婚妻》"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#838383"
+                android:textSize="8sp"
+                android:layout_marginTop="30px"
+                android:text="说起赵一涵和天佑，两人的关系也是有点不一般，据说自从认识以后，天佑就和赵一涵频频互动，直播期间也经常一起喊麦，每次连麦网友都说两人的气氛有点小微妙啊，看天佑笑得多开心呀！"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#adadad"
+                    android:textSize="7sp"
+                    android:text="2017-05-08 12:53"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#adadad"
+                    android:textSize="7sp"
+                    android:layout_marginLeft="48px"
+                    android:text="回复 10"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_spline"/>
+</LinearLayout>

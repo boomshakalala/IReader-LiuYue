@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/moneyTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="3000 腾币"/>
+    <LinearLayout
+        android:id="@+id/zMoneyLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:text="赠"
+            android:background="@drawable/shap_zeng_bg"/>
+
+        <TextView
+            android:id="@+id/zMoneyTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginLeft="4dp"
+            android:textColor="#ec406e"
+            android:text="3000 腾币"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/costTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginLeft="4dp"
+        android:textColor="#ec406e"
+        android:text="30 元"/>
+
+
+</LinearLayout>

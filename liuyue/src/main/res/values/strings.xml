@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IReader</string>
+    <string name="text_featured">精选</string>
+    <string name="text_stacks">书库</string>
+    <string name="text_search">搜索</string>
+    <string name="text_find">发现</string>
+    <string name="text_mine">我的</string>
+    <string name="text_modern">现言</string>
+    <string name="text_ancient">古言</string>
+    <string name="text_supernatural">灵异</string>
+    <string name="text_monthly">包月</string>
+    <string name="text_free">免费</string>
+    <string name="about">藤痕隶属于北京微风时代文化有限公司，由业内顶尖的内容运营团队倾心打造。（www.tenghen.com）是国内新锐的原创文学阅读创作平台，是集创作-阅读-出版-影视-改编-无线增值业务为一体的开放性内容平台。藤痕微风时代植根于新媒体文化创意产业，主营业务为数字云阅读+优质内容IP培养+版权经济，致力于为文化创意的移动互联网化和打造数字娱乐打造系统的数字化泛娱乐平台。目前公司已与多家优秀出版机构开展战略合作，同时也是“和游戏“（咪咕互动娱乐有限公司）的重要合作伙伴，与此同时，原创动漫网站已经正式启动，未来将全面布局“泛娱乐”战略，着力打造可持续发展的互动娱乐生态系统。
+藤痕秉承精品化的原创内容运营策略，长期致力于对原创作者的的深度培养，对创作出的优秀作品进行精准的IP版权运营，除传统的数字阅读付费模式外，同时打通包括动漫改编，影视改编，游戏改编等多个平台渠道，实现作品提供者收益的最大化，并提供于读者粉丝的良好的互动生态。</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="96px"
+    android:paddingRight="96px"
+    android:paddingTop="90px"
+    android:paddingBottom="90px"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/moneyTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="您的余额:0 腾币"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/rechargeBtn"
+        android:layout_width="207px"
+        android:layout_height="48px"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:text="立即充值"
+        android:gravity="center"
+        android:background="#f96466"/>
+</LinearLayout>
