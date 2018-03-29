@@ -79,6 +79,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="33px"
                 android:paddingBottom="45px"
+                android:visibility="gone"
                 android:paddingLeft="84px"
                 android:paddingRight="90px"
                 android:gravity="center_vertical"
@@ -122,6 +123,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
+                android:visibility="gone"
                 android:background="#ccccce"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -321,7 +323,8 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
-                android:background="#cccccc"/>
+                android:background="#cccccc"
+                android:visibility="gone"/>
             <RelativeLayout
                 android:id="@+id/myMsgBtn"
                 android:layout_width="match_parent"
@@ -329,7 +332,8 @@
                 android:paddingTop="48px"
                 android:paddingBottom="48px"
                 android:paddingLeft="84px"
-                android:paddingRight="90px">
+                android:paddingRight="90px"
+                android:visibility="gone">
 
                 <TextView
 
@@ -352,10 +356,12 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
+                android:visibility="gone"
                 android:background="#cccccc"/>
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:paddingTop="48px"
                 android:paddingBottom="48px"
                 android:paddingLeft="84px"

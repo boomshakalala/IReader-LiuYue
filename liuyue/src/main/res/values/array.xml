@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type_name">
+        <item>东方玄幻</item>
+        <item>西方玄幻</item>
+        <item>传统武侠</item>
+        <item>古典仙侠</item>
+        <item>都市生活</item>
+        <item>异能超能</item>
+        <item>青春校园</item>
+        <item>官场商战</item>
+        <item>架空历史</item>
+        <item>纪实历史</item>
+        <item>军事战争</item>
+        <item>军旅幻想</item>
+        <item>游戏生涯</item>
+        <item>游戏异界</item>
+        <item>体育竞技</item>
+        <item>未来世界</item>
+        <item>末世危机</item>
+        <item>推理侦探</item>
+        <item>悬疑探险</item>
+        <item>豪门世家</item>
+        <item>娱乐明星</item>
+        <item>婚恋情缘</item>
+        <item>青春纯爱</item>
+        <item>青春疼痛</item>
+        <item>青春校园</item>
+        <item>古代架空</item>
+        <item>宫闱宅斗</item>
+        <item>经商种田</item>
+        <item>魔法幻情</item>
+        <item>玄幻言情</item>
+        <item>推理探险</item>
+        <item>灵异鬼怪</item>
+        <item>现代耽美</item>
+        <item>古代耽美</item>
+        <item>同人小说</item>
+    </string-array>
+</resources>

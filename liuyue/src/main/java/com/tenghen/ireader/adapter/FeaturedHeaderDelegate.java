@@ -63,31 +63,31 @@ public class FeaturedHeaderDelegate  implements ItemViewDelegate<Object>,XBanner
         holder.setOnclickListener(R.id.featuredMonthlyBtn, new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                MonthlyActivity.launch(context);
+                BookTypeActivity.launch(context,16);
             }
         });
         holder.setOnclickListener(R.id.featuredFreeBtn, new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FreeBookActivity.launch(context);
+                BookTypeActivity.launch(context,17);
             }
         });
         holder.setOnclickListener(R.id.featuredModernBtn, new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                BookTypeActivity.launch(context,BookTypeActivity.INDEX_TYPE_MODERN_ROMANCE);
+                BookTypeActivity.launch(context,13);
             }
         });
         holder.setOnclickListener(R.id.featuredAncientBtn, new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                BookTypeActivity.launch(context,BookTypeActivity.INDEX_TYPE_ANCIENT_ROMANCE);
+                BookTypeActivity.launch(context,14);
             }
         });
         holder.setOnclickListener(R.id.featuredSupernaturalBtn, new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                BookTypeActivity.launch(context,BookTypeActivity.INDEX_TYPE_SUPERNATURAL_SUSPENSE);
+                BookTypeActivity.launch(context,15);
             }
         });
 

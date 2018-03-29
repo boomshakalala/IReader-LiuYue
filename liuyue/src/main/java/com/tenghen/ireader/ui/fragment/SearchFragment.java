@@ -136,7 +136,7 @@ public class SearchFragment extends BaseFragment<SearchPresent> implements View.
                 MonthlyActivity.launch(getContext());
                 break;
             case R.id.allBtn:
-                    BookTypeActivity.launch(getContext(),BookTypeActivity.INDEX_TYPE_ALL);
+                    BookTypeActivity.launch(getContext(),0);
                 break;
             case R.id.stacksBtn:
                 Activity activity = getActivity();

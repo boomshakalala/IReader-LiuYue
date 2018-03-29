@@ -27,7 +27,7 @@ public class AllGiftAdapter extends CommonRecyclerAdapter<GiftLog> {
     @Override
     public void convert(RecyclerViewHolder holder, GiftLog giftLog) {
         holder.setText(R.id.nickNameTv,giftLog.getUserName());
-        holder.setText(R.id.giftCountTv,giftLog.getNum()+"个");
-        holder.setImageResource(R.id.giftIv,giftImages[Integer.valueOf(giftLog.getMoneyType())-3]);
+        holder.setText(R.id.giftCountTv,1+"个");
+        holder.setImageResource(R.id.giftIv,giftImages[5-3]);
     }
 }
