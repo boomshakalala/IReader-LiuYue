@@ -19,7 +19,7 @@ public class PayPresent extends BasePresent<RechargeMoneyActivity> {
     @Override
     public void attachV(RechargeMoneyActivity rechargeMoneyActivity) {
         super.attachV(rechargeMoneyActivity);
-        wxApi =  WXAPIFactory.createWXAPI(getV(),"wx3d9ce0777f5b1e26");
+        wxApi =  WXAPIFactory.createWXAPI(getV(),"wxe8cdf24a5df779a1");
     }
 
     public void pay(int money, final String payType){

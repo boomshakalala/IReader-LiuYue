@@ -27,8 +27,8 @@ public class BaseApplication extends Application {
     }
 
     {
-        PlatformConfig.setWeixin("wx0be45c8b5fc6cbd4","b3b3665d351d4033aa791fd6e37b5057");
-        PlatformConfig.setQQZone("1106049570","");
+        PlatformConfig.setWeixin("wxe8cdf24a5df779a1","91c5b97649df33e75ecd612f021f41e0");
+        PlatformConfig.setQQZone("101472315","28ad3a2e26d5c4wa6a587bd8680f82dc");
         PlatformConfig.setSinaWeibo("958722460","179761d7876545d49f2a252c00dba5e1","");
     }
 
