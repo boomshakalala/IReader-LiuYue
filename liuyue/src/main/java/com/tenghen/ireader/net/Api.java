@@ -41,7 +41,7 @@ public class Api {
 
     //http://blog.csdn.net/ljy_programmer/article/details/78180445
 
-    public static final String HOST = "http://47.93.227.33:8022";
+    public static final String HOST = "http://192.144.171.24:7088";
     public static final String IMG_HOST = "";
 
 
